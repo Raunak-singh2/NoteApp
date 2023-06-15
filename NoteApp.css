@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(118, 208, 208, 0.582);
+}
+.heading {
+  text-align: center;
+  color: rgb(23, 36, 212);
+  margin-top:30px;
+}
+.para {
+  text-align: center;
+  color: blue;
+  padding: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 40px;
+  justify-content: center;
+  padding: 50px;
+}
+.texts {
+  padding: 17px;
+  resize: none;
+  box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255);
+}
+.texts::placeholder {
+  font-weight: bolder;
+  color: darkblue;
+}
+.texts:hover {
+  box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.6);
+  transition: all 300ms ease;
+}
+.btn {
+  height: 200px;
+  background: rgba(255, 255, 255);
+  border-color: rgba(255, 255, 255.5);
+  box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-size: 70px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.btn:hover{
+  background: rgba(255, 255, 255,0.55);
+  color: rgba(0, 0, 0, 0.6);
+  color:black
+
+}
+.texts:hover {
+  background: rgba(255, 255, 255,0.55);
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 300ms ease;
+}
